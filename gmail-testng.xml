@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="gmail" verbose="1">
+    <listeners>
+        <listener class-name="com.aframe.reporting.TestListener"/>
+    </listeners>
+
+    <test name="gmail">
+        <packages>
+            <package name="com.aframe.tests.gmail"/>
+        </packages>
+    </test>
+
+</suite>
+
